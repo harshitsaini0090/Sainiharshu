@@ -1060,3 +1060,57 @@ nav ul li a:hover {
 body.noscroll {
   overflow: scroll;
 }
+/* === Stylish Work Box === */
+  .work-box {
+  background: rgba(255, 255, 255, 0.05); /* transparent glass effect */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(10px); /* optional: for glass effect */
+  -webkit-backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+/* === Font/Icons inside box === */
+.work-box p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.work-box i {
+  color: #0ff;
+  margin-right: 8px;
+}
+
+/* === Animation === */
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.highlight-text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-shadow: 0 0 8px #fff, 0 0 12px #fff;
+  display: inline-block;
+  margin-bottom: 10px;
+  animation: glowText 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  }
+}
