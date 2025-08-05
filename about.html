@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit Saini | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+  <div class="logo">Harshit Saini</div>
+  <div class="hamburger" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="content.html">Contact</a></li>
+  </ul>
+</nav>
+  <section class="hero-section">
+  <div class="glass-card">
+      <main class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 40px 20px;">
+  <h1><i class="fas fa-user"></i> About Me</h1>
+        <div class="profile" data-aos="zoom-in">
+          <img src="radha.jpg" alt="Radha Saini" style="width: 140px; height: 140px; border-radius: 50%; border: 4px solid #000; object-fit: cover; margin-bottom: 20px;" />
+        </div>
+
+
+
+<p>
+  I'm <strong>Harshit Saini</strong>, a passionate <strong><i class="fas fa-bullhorn"></i> Digital Marketing Specialist</strong> certified by
+  <i class="fab fa-google"></i> Google and <i class="fab fa-meta"></i> Meta.
+</p>
+
+<p>
+  I’ve worked with:
+  <br><i class="fas fa-building"></i> Techmier  
+  <br><i class="fas fa-graduation-cap"></i> NewGen University Russia  
+  <br><i class="fas fa-tshirt"></i> Bangla Biswa (Kolkata based clothing brand)
+</p>
+
+<p>
+  I use tools like  
+  <i class="fas fa-chart-line"></i> Google Analytics,  
+  <i class="fas fa-search"></i> Semrush,  
+  <i class="fas fa-envelope-open-text"></i> MailChimp
+</p>
+
+        <!-- 🧠 Skills Section -->
+        <section style="margin-top: 30px; width: 100%; max-width: 700px;" data-aos="fade-up">
+          <h2>🧠 Skills & Tools</h2>
+          <div class="skills" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 10px;">
+            <span><i class="fas fa-search"></i> SEO</span>
+            <span><i class="fab fa-google"></i> Google Ads</span>
+            <span><i class="fab fa-facebook"></i> Meta Ads</span>
+            <span><i class="fas fa-chart-line"></i> Google Analytics</span>
+            <span><i class="fas fa-pencil-alt"></i> Content Strategy</span>
+            <span><i class="fas fa-key"></i> Keyword Research</span>
+          </div>
+        </section>
+
+        <!-- 📜 Certifications Section -->
+        <section style="margin-top: 40px; width: 100%; max-width: 700px;" data-aos="fade-up">
+<h2 class="cert-heading">
+  <span class="material-symbols-outlined cert-icon">Certifications</span>
+</h2>
+          <div class="certs" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;">
+            <div class="cert-card" data-aos="zoom-in">
+              <img src="googal add.jpg" alt="Google Certification" onclick="openImage(this.src)" />
+              <p><i class="fas fa-certificate"></i> Google Ads Certified</p>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+              <img src="google cartifica.jpg" alt="Google Certification" onclick="openImage(this.src)" />
+              <p><i class="fas fa-certificate"></i> Google Certificate</p>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+              <img src="Canva.jpg" alt="Canva Certification" onclick="openImage(this.src)" />
+              <p><i class="fas fa-certificate"></i> Canva Certification</p>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+              <img src="chatgpt.jpg" alt="ChatGPT Certification" onclick="openImage(this.src)" />
+              <p><i class="fas fa-certificate"></i> AI Certification</p>
+            </div>
+          </div>
+        </section>
+
+<section class="timeline-section" id="timeline">
+  <h2 class="section-title" data-aos="fade-down">My Journey</h2>
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+  <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+  <div class="timeline-content">
+    <h3>BBA – Agra University</h3>
+    <span class="date">2020 – 2023</span>
+    <p>Completed BBA focused on digital marketing and e-commerce strategy.</p>
+  </div>
+</div>
+<!-- Certificate Modal Viewer -->
+
+
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+  <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+  <div class="timeline-content">
+    <h3>Digital Marketing Specialist – Techmier</h3>
+    <span class="date">Feb 2024 – Mar 2025</span>
+    <p>Worked on SEO, Meta Ads, Google Analytics, campaign optimization.</p>
+  </div>
+</div>
+
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+  <div class="timeline-icon"><i class="fas fa-chart-bar"></i></div>
+  <div class="timeline-content">
+    <h3>Project – SelfUpGrad</h3>
+    <span class="date">Jan 2024 – Feb 2024</span>
+    <p>Created educational ads, optimized Meta targeting and content.</p>
+  </div>
+</div>
+
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+  <div class="timeline-icon"><i class="fas fa-globe"></i></div>
+  <div class="timeline-content">
+    <h3>Digital Strategist – NewGen University (Russia)</h3>
+    <span class="date">Dec 2023 – Jan 2024</span>
+    <p>Managed campaigns and student engagement with analytics tools.</p>
+  </div>
+</div>
+
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+  <div class="timeline-icon"><i class="fas fa-paint-brush"></i></div>
+  <div class="timeline-content">
+    <h3>Creative Designer – Bangla Biswa</h3>
+    <span class="date">Nov 2023 – Dec 2023</span>
+    <p>Enhanced social media and product presentation for branding.</p>
+  </div>
+</div>
+
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+  <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+  <div class="timeline-content">
+    <h3>Certifications</h3>
+    <span class="date">2021 – 2025</span>
+    <p>Google, Meta, Canva, AI tools (ChatGPT) Certifications.</p>
+  </div>
+</div>
+
+</section>
+
+        <!-- 🎨 Creative Work -->
+        <section style="margin-top: 50px; width: 100%; max-width: 700px; text-align: center;" data-aos="fade-up">
+          <h2 style="font-size: 1.8rem; color: #fff;">🎨 My Creative Work</h2>
+          <a href="https://www.behance.net/harshitsaini37" target="_blank" class="behance-link" style="display: inline-flex; align-items: center; gap: 10px; margin-top: 10px;">
+            <i class="fab fa-behance-square fa-2x" style="color: #1769ff;"></i>
+            <span>View my design portfolio on Behance</span>
+          </a>
+        </section>
+
+        <!-- 👇 Popup Full Image -->
+        <!-- 👇 Popup Full Image -->
+<div id="imagePopup" class="image-popup" onclick="closeImage()">
+  <img id="popupImg" />
+</div>
+
+      </main>
+    </div>
+  </section>
+
+  <!-- Image Popup Script -->
+  <script>
+    function openImage(src) {
+      document.getElementById("popupImg").src = src;
+      document.getElementById("imagePopup").style.display = "flex";
+    }
+
+    function closeImage() {
+      document.getElementById("imagePopup").style.display = "none";
+    }
+  </script>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="scripti.js"></script>
+</body>
+</html>
