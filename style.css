@@ -1114,48 +1114,22 @@ body.noscroll {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff;
   }
 }
-.social-icons a {
-  font-size: 2rem; /* yahan size badhao — 1rem default hota h, 2rem double size */
-  color: #fff; /* icon ka color */
-  margin: 0 10px; /* icons ke beech gap */
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icons a:hover {
-  color: #0ff; /* hover par color change */
-  transform: scale(1.2); /* hover par thoda zoom */
-}
-
 .social-icons {
   display: flex;
-  gap: 20px;
+  gap: 20px;            /* icons ke beech ka gap */
   justify-content: center;
   margin-top: 20px;
 }
 
 .social-icons a {
-  font-size: 2rem; /* 🔹 Size icons ka */
-  color: #fff;
+  font-size: 2rem;      /* icon size */
+  color: #fff;          /* default color */
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease;  /* smooth effect */
 }
 
 .social-icons a:hover {
-  color: #0ff; /* 🔹 Hover pe glow color */
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-  transform: scale(1.2); /* 🔹 Hover pe thoda zoom */
-}
-
-
-
-.social-icons a {
-  font-size: 2rem; /* icon size */
-  color: #fff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
-}
-
-.social-icons a:hover {
-  transform: scale(1.2);
-  color: #0ff;
-  box-shadow: 0 0 15px #0ff, 0 0 30px #0ff;
+  color: #0ff;          /* hover pe neon blue */
+  transform: scale(1.2); /* hover pe zoom */
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff; /* glow effect */
 }
