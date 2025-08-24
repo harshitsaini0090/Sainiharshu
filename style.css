@@ -1147,15 +1147,6 @@ body.noscroll {
 }
 
 
-.social-icons {
-  display: flex;
-  gap: 20px;
-  margin-top: 20px;
-  padding: 10px 20px;
-   /* glass effect */
-  border-radius: 15px;
-  backdrop-filter: blur(8px);
-}
 
 .social-icons a {
   font-size: 2rem; /* icon size */
