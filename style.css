@@ -1152,7 +1152,7 @@ body.noscroll {
   gap: 20px;
   margin-top: 20px;
   padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.05); /* glass effect */
+   /* glass effect */
   border-radius: 15px;
   backdrop-filter: blur(8px);
 }
